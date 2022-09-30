@@ -8,6 +8,9 @@ layout: 'base.njk'
     <h1 class="article-title">
       {{ title }}
     </h1>
+    <h2 class="main-article__meta">by <span>{{ author }}</span> on <span>{{ date | postDate
+        }}</span>
+    </h2>
     {% if image %}
     <figure class="main-article__figure">
       <img src="{{ image }}" alt="{{ imageAlt }}">
