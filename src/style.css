@@ -301,6 +301,17 @@ header,
   Logo
   */
 
+.home-link {
+  outline: none;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.home-link:focus {
+  outline: 2px solid var(--clr-primary-500);
+  outline-offset: 0.25rem;
+}
+
 .logo {
   display: flex;
   gap: 0rem;
