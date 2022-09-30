@@ -375,6 +375,12 @@ blockquote {
   padding-block-end: 3rem;
 }
 
+.main-article__figure img {
+  max-height: 50vh;
+  margin-inline: auto;
+  object-fit: cover;
+}
+
 .main-article__figure figcaption {
   margin: 1rem 0;
   font-size: var(--fs-300);
