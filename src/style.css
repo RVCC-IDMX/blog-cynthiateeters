@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Roboto&display=swap");
+
 :root {
   --fs-300: 0.9375rem;
   --fs-400: 1.0625rem;
@@ -13,17 +14,17 @@
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-200: hsla(169, 70%, 95%, 1);
-  --clr-primary-300: hsla(169, 100%, 39%, 1);
-  --clr-primary-400: hsla(169, 100%, 26%, 1);
-  --clr-primary-500: hsla(169, 100%, 16%, 1);
+  --clr-primary-200: hsla(169 70% 95% 1);
+  --clr-primary-300: hsla(202 100% 39% / 1);
+  --clr-primary-400: hsl(202 100% 26%);
+  --clr-primary-500: hsla(202 45% 38% / 1);
 
-  --clr-neutral-100: hsla(0, 0%, 100%, 1);
-  --clr-neutral-300: hsla(0, 0%, 50%, 1);
-  --clr-neutral-350: hsla(0, 0%, 45%, 1);
-  --clr-neutral-400: hsla(0, 0%, 40%, 1);
-  --clr-neutral-500: hsla(0, 0%, 60%, 1);
-  --clr-neutral-900: hsla(0, 0%, 10%, 1);
+  --clr-neutral-100: hsla(0 0% 100% / 1);
+  --clr-neutral-300: hsla(0 0% 50% / 1);
+  --clr-neutral-350: hsla(0 0% 45% / 1);
+  --clr-neutral-400: hsla(0 0% 40% / 1);
+  --clr-neutral-500: hsla(0 0% 60% / 1);
+  --clr-neutral-900: hsla(0 0% 10% / 1);
 
   --gap: 0.5em;
   --justify-content: flex-end;
@@ -272,10 +273,12 @@ html,
 body {
   height: 100%;
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
+
 body > main {
   flex: 1 0 auto;
 }
@@ -314,13 +317,20 @@ header,
 
 .logo {
   display: flex;
-  gap: 0rem;
+  gap: 1rem;
   align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 10rem;
+  display: block;
+  border-radius: 0.5rem;
 }
 
 .blog-name {
-  font-size: var(--fs-500);
-  font-family: var(--ff-body);
+  font-size: var(--fs-600);
+  font-family: var(--ff-heading);
   font-weight: var(--fw-900);
   line-height: 1.1;
   color: var(--clr-primary-500);
@@ -350,7 +360,7 @@ blockquote {
   grid-auto-flow: row;
   grid-auto-columns: 1fr;
   align-items: center;
-  gap: 3em;
+  gap: 2em;
 }
 
 .hero__image {
@@ -431,9 +441,11 @@ blockquote {
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
 .snippet__title {
   grid-area: title;
 }
+
 .snippet__meta {
   grid-area: meta;
   color: var(--clr-neutral-400);
@@ -497,6 +509,7 @@ blockquote {
   font-weight: var(--fw-700);
   border: 2px solid var(--clr-primary-400);
 }
+
 .btn--primary:hover,
 .btn--primary:focus {
   background: var(--clr-primary-500);
