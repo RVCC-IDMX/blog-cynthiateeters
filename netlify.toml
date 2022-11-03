@@ -6,6 +6,6 @@
   package = "netlify-plugin-cloudinary"
 
   [plugins.inputs]
-  cloudName = "cynthiateeters"
+  cloudName = "cynthia-teeters"
   deliveryType = "upload"
   uploadPreset = "arcane"
