@@ -7,8 +7,10 @@ layout: 'base.njk'
   <h1 class="hero-title">My Public Learning</h1>
   <div class="container flow">
     <div class="hero__content--image">
-      <img src="/assets/blog/DALL·E 2022-10-13 14.38.41 - bright digital drawing of laptop and palm plant.png" alt=""
-        class="hero__image">
+      <picture>
+        <source srcset="/assets/blog/palmtree-landscape.png" media="(min-width: 960px)" />
+        <img class="hero__image" src="/assets/blog/palmtree-portrait.png" alt="" />
+      </picture>
     </div>
     <div class="hero__content flow">
 
