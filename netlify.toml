@@ -10,4 +10,4 @@
   deliveryType = "upload"
   uploadPreset = "blogv2"
   folder = "blogv2-images"
-  imagesPath = "/assets/blog/unsplash"
+  imagesPath = "/assets/blog"
