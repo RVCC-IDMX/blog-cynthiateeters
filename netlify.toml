@@ -8,6 +8,6 @@
   [plugins.inputs]
   cloudName = "cynthia-teeters"
   deliveryType = "upload"
-  uploadPreset = "blog"
-  folder = "blog-images"
+  uploadPreset = "blogv2"
+  folder = "blogv2-images"
   imagesPath = "/assets/blog/unsplash"
