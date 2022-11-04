@@ -10,4 +10,4 @@
   deliveryType = "upload"
   uploadPreset = "arcane"
   folder = "arcane"
-  path = "/assets/blog/unsplash"
+  imagesPath = "/assets/blog/unsplash"
