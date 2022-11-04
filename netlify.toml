@@ -11,4 +11,3 @@
   uploadPreset = "blog"
   folder = "blog-images"
   imagesPath = "/assets/blog/unsplash"
-  loadingStrategy = "lazy"
