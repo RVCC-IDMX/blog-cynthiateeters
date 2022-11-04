@@ -12,7 +12,12 @@
   <link rel="stylesheet" href="/style.css">
   <!-- <link rel="shortcut icon" href="/assets/newlogo.svg" type="image/svg+xml"> -->
   <link rel="shortcut icon" href="/assets/palmtree.png" type="image/png">
-  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-tomorrow.css" rel="stylesheet">
+  <!-- https://web.dev/defer-non-critical-css/ -->
+  <link rel="preload" href="https://unpkg.com/prismjs@1.20.0/themes/prism-tomorrow.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-tomorrow.css">
+  </noscript>
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
