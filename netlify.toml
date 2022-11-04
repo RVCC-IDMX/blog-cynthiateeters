@@ -9,3 +9,5 @@
   cloudName = "cynthia-teeters"
   deliveryType = "upload"
   uploadPreset = "arcane"
+  folder = "arcane"
+  path = "/assets/blog/unsplash"
