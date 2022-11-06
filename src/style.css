@@ -33,6 +33,8 @@
   --ff-heading: "Montserrat", serif;
   --ff-logo: "Roslindale", serif;
 
+  --fw-300: 300;
+  --fw-350: 350;
   --fw-400: 400;
   --fw-700: 700;
   --fw-900: 900;
@@ -214,7 +216,6 @@ h1,
 h2,
 h3 {
   font-family: var(--ff-heading);
-  font-weight: var(--fw-900);
   line-height: 1.1;
 }
 
@@ -266,6 +267,7 @@ section,
 .article-title,
 .section-title {
   color: var(--clr-primary-500);
+  font-weight: var(--fw-350);
 }
 
 .hero-title {
