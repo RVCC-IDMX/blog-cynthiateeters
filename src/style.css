@@ -142,6 +142,8 @@ body {
   margin: 0;
 }
 
+
+
 /* .social__link,
 .social__link:link,
 .social--link:visited {
@@ -162,11 +164,15 @@ body {
   transition: color 0.75s ease-in-out, box-shadow 0.75s ease-in-out;
 }
 
-.social a:hover {
+/* .social a:hover {
   --link-bg: var(--clr-primary-100);
   --link-clr: var(--clr-neutral-500);
   box-shadow: inset 100px 0 0 0 var(--link-bg);
   color: var(--link-clr);
+} */
+
+.social-icon {
+  width: 32px;
 }
 
 /* Make images easier to work with */
